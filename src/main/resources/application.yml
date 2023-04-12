@@ -1,3 +1,5 @@
 g4f:
   movie:
     path: <path to movies>
+  cinema:
+    path: <path to cinemas>
