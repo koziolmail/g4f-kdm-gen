@@ -6,6 +6,7 @@ import java.nio.file.Files
 import java.nio.file.Path
 import kotlin.io.path.isDirectory
 import kotlin.io.path.name
+import kotlin.streams.toList
 
 @Service
 @ConfigurationProperties("g4f.cinema")

@@ -3,6 +3,11 @@ g4f:
     path: <path to movies>
   cinema:
     path: <path to cinemas>
-spring.security.oauth2.client.registration.google:
-  client-id: <your-client-id>
-  client-secret: <your-client-secret>
+spring:
+  datasource:
+    url: <url>
+    username: <username>
+    password: <password>
+  security.oauth2.client.registration.google:
+    client-id: <your-client-id>
+    client-secret: <your-client-secret>
